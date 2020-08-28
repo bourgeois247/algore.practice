@@ -10,6 +10,8 @@ Go buy a subscription now, and start your Algorithms Deep Dive journey.
 
 ## How to use this
 
+> NB All of the problems assume a Javascript environment
+
 Each file contains a solution for one challenge. Details of the challenge are in the "front matter" or documentation of the page. To run, you'd need to have [NodeJS](nodejs.com) installed. Simply navigate to the folder where you've cloned this repository to, and then run with Node. For instance, to run the `reverse-array-in-place.js`, in your terminal, run
 
 ```

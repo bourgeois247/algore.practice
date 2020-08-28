@@ -1,3 +1,15 @@
+'use strict'
+/**
+ * Interview Cake Practice 1.1
+ * Challenge Title: Merge meetings
+ * Challenge URL: https://www.interviewcake.com/question/javascript/
+ * merging-ranges?course=fc1&section=array-and-string-manipulation
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ * 
+ * @param {array} meetings 
+ */
 function mergeRanges(meetings) {
   /**
    * Sort entire array first
@@ -52,11 +64,9 @@ function mergeRanges(meetings) {
   return newRanges;
 }
 
-const data = [
+console.log(mergeRanges([
   { startTime: 1, endTime: 10 },
   { startTime: 2, endTime: 6 },
   { startTime: 3, endTime: 5 },
   { startTime: 7, endTime: 9 },
-]
-
-console.log(mergeRanges(data));
+]));

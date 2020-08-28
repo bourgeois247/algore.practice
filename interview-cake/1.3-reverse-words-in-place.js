@@ -1,3 +1,17 @@
+'use strict'
+/**
+ * Interview Cake Practice 1.3
+ * Challenge Title: Reverse words (in place)
+ * Challenge URL: https://www.interviewcake.com/question/javascript/
+ * reverse-words?course=fc1&section=array-and-string-manipulation
+ * 
+ * Time Complexity: O(n^2) => becaue of the slice operation, indices have to reset 
+ * for all elements in O(n) time
+ * Space Complexity: O(1)
+ * 
+ * @param {array} myArray 
+ * @param {array} alicesArray 
+ */
 function reverseWords(message) {
 
   // initialize one counter to start at the end of the array
@@ -42,8 +56,13 @@ console.log(reverseWords(['c', 'a', 'k', 'e', ' ',
   'p', 'o', 'u', 'n', 'd', ' ',
   's', 't', 'e', 'a', 'l']))
 
+
+/**
+ * Manual walkthroguh
+ */
+
 // input => ['o','n',' ','t','o']
-// output => ['t','o',' ','o','n']
+// expected output => ['t','o',' ','o','n']
 
 
 // ---

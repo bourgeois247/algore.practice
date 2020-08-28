@@ -1,3 +1,15 @@
+'use state';
+/**
+ * Interview Cake Practice 1.2
+ * Challenge Title: Reverse string in place
+ * Challenge URL: https://www.interviewcake.com/question/javascript/
+ * reverse-string-in-place?course=fc1&section=array-and-string-manipulation
+ * 
+ * Time Complexity: O(n/2) = O(n)
+ * Space Complexity: O(1)
+ * 
+ * @param {array} arrayOfChars 
+ */
 function reverse(arrayOfChars) {
 
   // find the midpoint of the array, round up
